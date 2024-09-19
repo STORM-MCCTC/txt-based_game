@@ -29,7 +29,7 @@ class player_char:
         self.char_reputation_criminal = 0.0
 
         #! not displayed init
- 
+        self.char_inventory_space = 10
 
     def player_set(self):
         print("")
