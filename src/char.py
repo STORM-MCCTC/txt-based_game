@@ -36,7 +36,7 @@ class player_char:
         self.char_name = input("Character Name: ")
         print("")
         print("| 1- Male | 2 - Female | 3 - Enby | 4 - Other |")
-        gender_choice = input("Select Gender (1-4): ")
+        gender_choice = input("| 1- Male | 2 - Female | 3 - Enby | 4 - Other |: ")
         
         if gender_choice == '1':
             self.char_gender = "Male"
