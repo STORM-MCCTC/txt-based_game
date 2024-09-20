@@ -1,5 +1,5 @@
-from char import player_char
-
+from src.char import player_char
+from src.clothing import clothing
 player = player_char()
 
 player.player_set()
