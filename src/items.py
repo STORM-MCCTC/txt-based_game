@@ -1,4 +1,4 @@
-    
+def items():    
     #! clothing items
     
     pant_item = ["none","shorts", "Sweatpants", "Ripped Jeans", "Cargo Pants", "Dress Slacks", "Tailored Trousers", "Yoga Leggings"]
@@ -23,30 +23,6 @@
     short_blunt_weapons = []
     long_blade_weapons = []
     short_blade_weapons = []
-    poll_weapons = []
-    
-    #! damage dealing items ( illegal in game ) -self.char_reputation_authorities
-    #  block players from taking into public places (e.g. the school for obvious reason)
-    #  the only weapon the the player can hold on them is a pistol, onther weapons will have a 75% chance of being arrested 
-    #  long rifles can be used if player is in forest were people whould typicly hunt
-    #  holding Guns type weapon increases you stress faster 
-    
-    pistol_weapons = []
-    shotgun_weapons = []
-    long_rifle_weapons = []
-    assault_rifle_weapons = ["M16", "AR-15", "AK-47", ]
-    explosive_weapons = []
-    SMG_weapons = ["P90", ]
-    
-    pistol_weapons_ammo = []
-    shotgun_weapons_ammo = []
-    long_rifle_weapons_ammo = []
-    assault_rifle_weapons_ammo = []
-    explosive_weapons_ammo = []
-    SMG_weapons_ammo = []
-    
-    pistol_weapons_ammo_mags = []
-    long_rifle_weapons_ammo_mags = []
-    assault_rifle_weapons_ammo_mags = ["M16 Mag", "AR-15 Mag", "AK-47 Mag"]
-    SMG_weapons_ammo_mags = []
+
+    return pant_item, Shirt_item, Outerwear_item, Footwear_under_item, Footwear_item, underware_upper_item, underware_lower_item, Accessories_head_item, Accessories_face_item, Accessories_face_mask_item, Accessories_back_item, Accessories_neck_item, Accessories_hands_item, Dress_item, coverall_item, Long_blunt_weapons, short_blunt_weapons, long_blade_weapons, short_blade_weapons
     
